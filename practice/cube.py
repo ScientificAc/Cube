@@ -14,7 +14,6 @@ edges = [
     if sum([abs(a - b) for a, b in zip(v1, v2)]) == 1
 ]
 
-
 def generate_unfolding(start_vertex):
     # Начинаем с фиксированной грани и разворачиваем
     unfolding = [start_vertex]
